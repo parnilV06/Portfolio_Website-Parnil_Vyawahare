@@ -232,8 +232,15 @@ th {
 }
 
 .w-icon-nav-menu:before {
-    content: "î˜‚";
+     content: " ";
+    display: inline-block;
+    width: 50px;   /* explicit width */
+    height: 50px;  /* explicit height */
+    background-image: url(/assests/menu.png);
+    background-size: contain; /* scale inside the box */
+    background-repeat: no-repeat;
 }
+
 
 .w-icon-arrow-down:before,
 .w-icon-dropdown-toggle:before {
@@ -5461,8 +5468,8 @@ figcaption {
     width: 100vw;
 }
 
-/* Addition complete  */
-/* 
+/* Addition complete  */ 
+ 
 @media (max-width: 800px) {
   .highlight_porj {
     flex-direction: column;
@@ -5471,4 +5478,8 @@ figcaption {
   .hp_item_card{
     width: 95vw;
   }
-} */
+
+  .hp_title{
+    width: 95vw;
+  }
+}
