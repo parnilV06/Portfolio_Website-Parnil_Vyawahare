@@ -1,0 +1,206 @@
+backend:
+  name: turbo-github
+  turbo_site_id: f60da04b-1e9d-4b9a-a014-8970dbedd1ac
+  branch: main
+
+# Media files will be stored in public/projects/media and served at /projects/media
+media_folder: "public/projects/media"
+public_folder: "/projects/media"
+
+# Decap CMS collections
+collections:
+  - name: "projects"
+    label: "Projects"
+    label_singular: "Project"
+    folder: "content/projects"
+    create: true
+    format: "json"
+    slug: "{{slug}}"
+    identifier_field: "slug"
+    summary: "{{title}} [{{status}}] - {{category}}"
+    sortable_fields: ["title", "year", "status", "display.featuredOrder"]
+    fields:
+      # PROJECT INFORMATION
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "Project display title, e.g. 'Cubit'"
+
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "Unique URL-safe identifier used as the filename, e.g. 'cubit'"
+
+      - label: "Tagline"
+        name: "tagline"
+        widget: "string"
+        required: false
+        hint: "Short one-liner summary"
+
+      - label: "Short Description"
+        name: "shortDescription"
+        widget: "string"
+        hint: "Brief description shown on project cards and lists"
+
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+        hint: "Full project overview description"
+
+      - label: "Year"
+        name: "year"
+        widget: "number"
+        value_type: "int"
+        default: 2026
+
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options:
+          - { label: "Published", value: "published" }
+          - { label: "Draft", value: "draft" }
+          - { label: "Archived", value: "archived" }
+        default: "published"
+        hint: "Only published projects are shown publicly on the portfolio"
+
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - "WEB APP"
+          - "TOOL"
+          - "HACKATHON"
+          - "EXPERIMENT"
+          - "PRACTICE"
+          - "FREELANCE"
+          - "MISC"
+        default: "WEB APP"
+
+      - label: "Project Type"
+        name: "projectType"
+        widget: "string"
+        required: false
+        hint: "Human-friendly label e.g. 'Web app', 'Tool', 'Hackathon'"
+
+      # TECHNOLOGIES & ROLE
+      - label: "Technologies"
+        name: "technologies"
+        widget: "list"
+        default: []
+        hint: "List of tech tags (e.g. React, TypeScript, Tailwind)"
+
+      - label: "Role"
+        name: "role"
+        widget: "string"
+        required: false
+        hint: "Your role on this project (e.g. 'Lead Developer', 'Solo Creator')"
+
+      # LINKS
+      - label: "Links"
+        name: "links"
+        widget: "object"
+        required: false
+        fields:
+          - label: "GitHub URL"
+            name: "github"
+            widget: "string"
+            required: false
+
+          - label: "Live Demo URL"
+            name: "demo"
+            widget: "string"
+            required: false
+
+          - label: "Documentation URL"
+            name: "documentation"
+            widget: "string"
+            required: false
+
+      # MEDIA
+      - label: "Media"
+        name: "media"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Cover Image"
+            name: "cover"
+            widget: "image"
+            required: false
+
+          - label: "Project Images"
+            name: "images"
+            widget: "list"
+            field: { label: "Image", name: "image", widget: "image" }
+            required: false
+
+          - label: "Videos"
+            name: "videos"
+            widget: "list"
+            field: { label: "Video URL", name: "video", widget: "string" }
+            required: false
+
+          - label: "Architecture Diagram"
+            name: "architecture"
+            widget: "image"
+            required: false
+
+      # CASE STUDY
+      - label: "Case Study"
+        name: "caseStudy"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Problem"
+            name: "problem"
+            widget: "text"
+            required: false
+
+          - label: "Solution"
+            name: "solution"
+            widget: "text"
+            required: false
+
+          - label: "Features"
+            name: "features"
+            widget: "list"
+            required: false
+
+          - label: "Challenges"
+            name: "challenges"
+            widget: "text"
+            required: false
+
+          - label: "Outcome"
+            name: "outcome"
+            widget: "text"
+            required: false
+
+          - label: "Learnings"
+            name: "learnings"
+            widget: "text"
+            required: false
+
+      # DISPLAY SETTINGS
+      - label: "Display Settings"
+        name: "display"
+        widget: "object"
+        fields:
+          - label: "Featured on Home"
+            name: "featured"
+            widget: "boolean"
+            default: false
+            hint: "When enabled, project appears in the Featured Projects archive on the homepage"
+
+          - label: "Featured Order"
+            name: "featuredOrder"
+            widget: "number"
+            value_type: "int"
+            required: false
+            hint: "Sort priority in the Featured Projects section (1 = first, 2 = second, etc.)"
+
+          - label: "Show in All Projects"
+            name: "showInProjects"
+            widget: "boolean"
+            default: true
+            hint: "When enabled, project appears in the /projects gallery page"

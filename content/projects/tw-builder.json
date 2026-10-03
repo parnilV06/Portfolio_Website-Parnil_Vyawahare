@@ -1,0 +1,40 @@
+{
+  "slug": "tw-builder",
+  "title": "TW-Builder",
+  "tagline": "Convert CSS to Tailwind",
+  "shortDescription": "Convert CSS to Tailwind, instantly.",
+  "description": "Convert CSS to Tailwind, instantly.",
+  "year": 2026,
+  "status": "published",
+  "category": "TOOL",
+  "projectType": "Tool",
+  "technologies": [
+    "css",
+    "tailwind"
+  ],
+  "role": "",
+  "links": {
+    "github": "",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "",
+    "solution": "",
+    "features": [],
+    "challenges": "",
+    "outcome": "",
+    "learnings": ""
+  },
+  "display": {
+    "featured": true,
+    "featuredOrder": 3,
+    "showInProjects": true
+  }
+}

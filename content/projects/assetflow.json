@@ -1,0 +1,40 @@
+{
+  "slug": "assetflow",
+  "title": "AssetFlow",
+  "tagline": "Asset management system for teams",
+  "shortDescription": "Asset management system for teams.",
+  "description": "Asset management system for teams.",
+  "year": 2026,
+  "status": "published",
+  "category": "HACKATHON",
+  "projectType": "Hackathon",
+  "technologies": [
+    "assets",
+    "teams"
+  ],
+  "role": "",
+  "links": {
+    "github": "",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "",
+    "solution": "",
+    "features": [],
+    "challenges": "",
+    "outcome": "",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

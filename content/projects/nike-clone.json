@@ -1,0 +1,40 @@
+{
+  "slug": "nike-clone",
+  "title": "Nike Clone",
+  "tagline": "Frontend practice project",
+  "shortDescription": "Frontend practice project.",
+  "description": "Frontend practice project.",
+  "year": 2026,
+  "status": "published",
+  "category": "PRACTICE",
+  "projectType": "Practice",
+  "technologies": [
+    "frontend",
+    "practice"
+  ],
+  "role": "",
+  "links": {
+    "github": "",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "",
+    "solution": "",
+    "features": [],
+    "challenges": "",
+    "outcome": "",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

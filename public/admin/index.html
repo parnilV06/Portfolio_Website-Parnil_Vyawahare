@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Portfolio Content Manager — Parnil Vyawahare</title>
+    <!-- Explicitly declare Decap CMS configuration location -->
+    <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url" />
+  </head>
+  <body>
+    <!-- Decap CMS Application Entry with Decap Turbo Backend Support -->
+    <script src="https://cdn.jsdelivr.net/npm/decap-cms@beta/dist/decap-cms.js"></script>
+    <script>
+      // Ensure trailing slash for consistent asset resolution
+      if (window.location.pathname === "/admin") {
+        window.history.replaceState(null, "", "/admin/" + window.location.search + window.location.hash);
+      }
+    </script>
+  </body>
+</html>

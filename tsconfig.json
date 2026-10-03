@@ -25,13 +25,15 @@
 
     "paths": {
       "@/*": ["./client/*"],
-      "@shared/*": ["./shared/*"]
+      "@shared/*": ["./shared/*"],
+      "@content/*": ["./content/*"]
     }
   },
   "include": [
     "client/**/*",
     "server/**/*",
     "shared/**/*",
+    "content/**/*",
     "scripts/**/*.ts",
     "vite.config.ts",
     "vite.config.server.ts"

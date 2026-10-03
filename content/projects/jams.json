@@ -1,0 +1,40 @@
+{
+  "slug": "jams",
+  "title": "JAMS",
+  "tagline": "Personal AI operating system",
+  "shortDescription": "Personal AI operating system.",
+  "description": "Personal AI operating system.",
+  "year": 2026,
+  "status": "published",
+  "category": "EXPERIMENT",
+  "projectType": "Experiment",
+  "technologies": [
+    "systems",
+    "experiment"
+  ],
+  "role": "",
+  "links": {
+    "github": "",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "",
+    "solution": "",
+    "features": [],
+    "challenges": "",
+    "outcome": "",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

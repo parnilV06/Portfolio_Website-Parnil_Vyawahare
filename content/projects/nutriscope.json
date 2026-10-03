@@ -1,0 +1,40 @@
+{
+  "slug": "nutriscope",
+  "title": "NutriScope",
+  "tagline": "Scan. Analyze. Eat better.",
+  "shortDescription": "Scan. Analyze. Eat better.",
+  "description": "Scan. Analyze. Eat better.",
+  "year": 2026,
+  "status": "published",
+  "category": "HACKATHON",
+  "projectType": "Hackathon",
+  "technologies": [
+    "nutrition",
+    "analysis"
+  ],
+  "role": "",
+  "links": {
+    "github": "",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "",
+    "solution": "",
+    "features": [],
+    "challenges": "",
+    "outcome": "",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

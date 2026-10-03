@@ -1,0 +1,40 @@
+{
+  "slug": "typecraft",
+  "title": "TypeCraft",
+  "tagline": "Minimal typing test",
+  "shortDescription": "A minimal typing test to track and improve your speed.",
+  "description": "A minimal typing test to track and improve your speed.",
+  "year": 2026,
+  "status": "published",
+  "category": "WEB APP",
+  "projectType": "Web app",
+  "technologies": [
+    "typing",
+    "practice"
+  ],
+  "role": "",
+  "links": {
+    "github": "",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "",
+    "solution": "",
+    "features": [],
+    "challenges": "",
+    "outcome": "",
+    "learnings": ""
+  },
+  "display": {
+    "featured": true,
+    "featuredOrder": 4,
+    "showInProjects": true
+  }
+}

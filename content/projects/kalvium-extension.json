@@ -1,0 +1,40 @@
+{
+  "slug": "kalvium-extension",
+  "title": "Kalvium Extension",
+  "tagline": "Productivity tools for Kalvium",
+  "shortDescription": "Productivity tools for Kalvium.",
+  "description": "Productivity tools for Kalvium.",
+  "year": 2026,
+  "status": "published",
+  "category": "TOOL",
+  "projectType": "Tool",
+  "technologies": [
+    "productivity",
+    "extension"
+  ],
+  "role": "",
+  "links": {
+    "github": "",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "",
+    "solution": "",
+    "features": [],
+    "challenges": "",
+    "outcome": "",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}
