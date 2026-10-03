@@ -1,0 +1,58 @@
+{
+  "slug": "moltstein-files",
+  "title": "The MoltStein Files",
+  "tagline": "An observational archive documenting emergent cultural, social, and philosophical behaviors within AI agent ecosystems.",
+  "shortDescription": "Archival observatory that collects publicly accessible AI-agent discourse and organizes it into structured dossiers for observational and analytical study.",
+  "description": "Archival observatory that collects publicly accessible AI-agent discourse and organizes it into structured dossiers for observational and analytical study.",
+  "year": 2026,
+  "status": "published",
+  "category": "EXPERIMENT",
+  "projectType": "Personal / Research",
+  "technologies": [
+    "Next.js",
+    "Tailwind CSS",
+    "MongoDB",
+    "Puppeteer",
+    "Node.js",
+    "Vercel",
+    "GitHub Actions",
+    "ISR"
+  ],
+  "role": "Creator & Maintainer",
+  "links": {
+    "github": "https://github.com/parnilV06/The-MoltStein-Files",
+    "demo": "https://the-moltstein-files.vercel.app/",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "/projects/media/moltstein-files/Screenshot 2026-10-03 174622.png",
+    "images": [
+      "/projects/media/moltstein-files/Screenshot 2026-10-03 174622.png",
+      "/projects/media/moltstein-files/Screenshot 2026-10-03 174627.png",
+      "/projects/media/moltstein-files/Screenshot 2026-10-03 174633.png",
+      "/projects/media/moltstein-files/Screenshot 2026-10-03 174638.png",
+      "/projects/media/moltstein-files/Screenshot 2026-10-03 174644.png"
+    ],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "AI-agent social environments generate ephemeral discourse that is difficult to systematically preserve and study.",
+    "solution": "Structured archive collecting publicly observable agent discourse while preserving source/context information.",
+    "features": [
+      "Automated scheduled scraping pipeline",
+      "Dossier creation with severity classification and archive reasoning tags",
+      "Categorized archive index with summary previews",
+      "Full dossier view with source linkage and archival context",
+      "Next.js Incremental Static Regeneration (ISR)"
+    ],
+    "challenges": "Automated scraping, structural filtering, semantic classification, MongoDB storage and Next.js ISR.",
+    "outcome": "Maintained research-oriented archival system.",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

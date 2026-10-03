@@ -1,36 +1,55 @@
 {
   "slug": "claire",
-  "title": "Claire",
-  "tagline": "Inclusive EdTech for dyslexic students",
-  "shortDescription": "Inclusive EdTech for dyslexic students.",
-  "description": "Inclusive EdTech for dyslexic students.",
+  "title": "Claire — Inclusive EdTech Platform",
+  "tagline": "Accessible Reading, Empowered Learning",
+  "shortDescription": "An accessibility-focused learning platform for students with dyslexia combining customized reading controls with AI-assisted learning and emotional-support guidance.",
+  "description": "Claire is an accessibility-focused learning platform designed for students with dyslexia. It reduces cognitive and visual effort in reading through customizable typography, while providing AI-assisted learning tools, Indian-language voice synthesis, and an empathetic emotional-support companion.",
   "year": 2026,
   "status": "published",
   "category": "HACKATHON",
-  "projectType": "Hackathon",
+  "projectType": "Hackathon / EdTech Platform",
   "technologies": [
-    "edtech",
-    "accessibility"
+    "React",
+    "TypeScript",
+    "Vite",
+    "Express",
+    "OpenDyslexic",
+    "Groq",
+    "Gemini",
+    "Sarvam AI",
+    "Netlify"
   ],
-  "role": "",
+  "role": "Full-Stack Developer",
   "links": {
-    "github": "",
-    "demo": "",
+    "github": "https://github.com/parnilV06/Claire",
+    "demo": "https://claire-by-prismatics.netlify.app/",
     "documentation": ""
   },
   "media": {
-    "cover": "",
-    "images": [],
+    "cover": "/projects/media/claire/Screenshot 2026-10-03 174404.png",
+    "images": [
+      "/projects/media/claire/Screenshot 2026-10-03 174404.png",
+      "/projects/media/claire/Screenshot 2026-10-03 174411.png",
+      "/projects/media/claire/Screenshot 2026-10-03 174418.png"
+    ],
     "videos": [],
     "architecture": ""
   },
   "caseStudy": {
-    "problem": "",
-    "solution": "",
-    "features": [],
-    "challenges": "",
-    "outcome": "",
-    "learnings": ""
+    "problem": "Students with dyslexia often face visual crowding and decoding barriers when reading conventional text, leading to cognitive fatigue, lower study engagement, and emotional stress.",
+    "solution": "Built an inclusive learning environment combining customizable reading typography (OpenDyslexic, letter/word spacing, background themes) with an AI learning assistant for text simplification, quizzes, and an empathetic AI emotional-support companion.",
+    "features": [
+      "Customizable Canvas reading interface with OpenDyslexic font support",
+      "Dynamic typography controls: font size, letter spacing, word spacing & line height",
+      "Personalized accessibility assessment flow to infer optimal reading presets",
+      "AI learning assistant for text simplification, summarization & study quizzes",
+      "Empathetic AI emotional-support companion with crisis keyword safety filters",
+      "Text-to-speech & Indian-language voice generation powered by Sarvam AI",
+      "Netlify serverless functions & Express API backend"
+    ],
+    "challenges": "Implementing smooth client-side reading customization without layout jitter and crafting specialized safety prompts with client-side crisis detection for the emotional-support companion.",
+    "outcome": "Comprehensive prototype demonstrating accessible learning, assistive AI tools, and voice accessibility for neurodivergent students.",
+    "learnings": "Designing inclusive UX for dyslexia, integrating multi-modal AI APIs (Groq, Gemini, Sarvam AI), and implementing client-side safety guardrails."
   },
   "display": {
     "featured": false,

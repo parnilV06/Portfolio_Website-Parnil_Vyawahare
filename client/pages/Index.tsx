@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties } from "react";
 import { Braces, Code2, Database, Server, Wrench } from "lucide-react";
-import { FEATURED_PROJECTS, type Project } from "@/projects";
+import { FEATURED_PROJECTS, type Project, formatLiveUrlLabel } from "@/projects";
 
 type PopoverKind = "resume" | "process";
 type KeyAction =
@@ -884,28 +884,129 @@ function CaseStudyDialog({
           </button>
           <p className="case-dialog-number">Project / {project.number}</p>
           <h2 id="case-dialog-title">{project.title}</h2>
-          <p className="case-dialog-type">{project.type}</p>
+          <p className="case-dialog-type">{project.tagline || project.type}</p>
           <div className="case-dialog-sections">
-            <section>
-              <h3>What it is</h3>
-              <p>{project.description} This case study is currently in progress.</p>
-            </section>
-            <section>
-              <h3>The problem</h3>
-              <p>Details for this case study will be added as the project is documented.</p>
-            </section>
-            <section>
-              <h3>The solution</h3>
-              <p>The final direction and supporting decisions are still being shaped.</p>
-            </section>
-            <section>
-              <h3>My contribution</h3>
-              <p>Contribution details will be shared here when this case study is ready.</p>
-            </section>
-            <section>
-              <h3>Process &amp; outcome</h3>
-              <p>Process notes and outcomes are in progress. No final claims are made yet.</p>
-            </section>
+            {(project.overview || project.description) && (
+              <section>
+                <h3>What it is</h3>
+                <p>{project.overview || project.description}</p>
+              </section>
+            )}
+            {project.problem && (
+              <section>
+                <h3>The problem</h3>
+                <p>{project.problem}</p>
+              </section>
+            )}
+            {project.solution && (
+              <section>
+                <h3>The solution</h3>
+                <p>{project.solution}</p>
+              </section>
+            )}
+            {project.features && project.features.length > 0 && (
+              <section>
+                <h3>Key features</h3>
+                <ul style={{ paddingLeft: "1.2rem", marginTop: "0.5rem" }}>
+                  {project.features.map((feature, idx) => (
+                    <li key={idx} style={{ marginBottom: "0.25rem" }}>{feature}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
+            {(project.contribution || project.role) && (
+              <section>
+                <h3>My contribution</h3>
+                <p>{project.contribution || project.role}</p>
+              </section>
+            )}
+            {(project.challenges || project.process) && (
+              <section>
+                <h3>Technical challenges</h3>
+                <p>{project.challenges || project.process}</p>
+              </section>
+            )}
+            {project.outcome && (
+              <section>
+                <h3>Outcome</h3>
+                <p>{project.outcome}</p>
+              </section>
+            )}
+            {project.learnings && (
+              <section>
+                <h3>Learnings</h3>
+                <p>{project.learnings}</p>
+              </section>
+            )}
+            {project.technologies && project.technologies.length > 0 && (
+              <section>
+                <h3>Technologies</h3>
+                <p>{project.technologies.join(" · ")}</p>
+              </section>
+            )}
+            {((project.videos && project.videos.length > 0) || (project.images && project.images.length > 0)) && (
+              <section>
+                <h3>Project Media</h3>
+                {project.videos && project.videos.length > 0 && (
+                  <div style={{ marginBottom: project.images && project.images.length > 0 ? "16px" : "0" }}>
+                    {project.videos.map((vid, idx) => (
+                      <video
+                        key={idx}
+                        src={vid}
+                        controls
+                        playsInline
+                        className="case-dialog-video"
+                      />
+                    ))}
+                  </div>
+                )}
+                {project.images && project.images.length > 0 && (
+                  <div className="case-dialog-media-grid">
+                    {project.images.map((img, idx) => (
+                      <div key={idx} className="case-dialog-media-item">
+                        <img
+                          src={img}
+                          alt={`${project.title} screenshot ${idx + 1}`}
+                          loading="lazy"
+                          className="case-dialog-media-img"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </section>
+            )}
+            {(project.liveUrl || project.githubUrl) && (
+              <section>
+                <h3>Links</h3>
+                <p style={{ display: "flex", gap: "16px", flexWrap: "wrap", margin: "4px 0 0" }}>
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cursor-can-hover"
+                      data-cursor-kind="small"
+                      style={{ color: "var(--accent, #00FFF5)", textDecoration: "underline" }}
+                    >
+                      {formatLiveUrlLabel(project.liveUrl, project.id)} ↗
+                    </a>
+                  )}
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cursor-can-hover"
+                      data-cursor-kind="small"
+                      style={{ color: "var(--accent, #00FFF5)", textDecoration: "underline" }}
+                    >
+                      GitHub Repository ↗
+                    </a>
+                  )}
+                </p>
+              </section>
+            )}
           </div>
         </div>
       )}

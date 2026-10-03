@@ -1,35 +1,49 @@
 {
   "slug": "typecraft",
   "title": "TypeCraft",
-  "tagline": "Minimal typing test",
-  "shortDescription": "A minimal typing test to track and improve your speed.",
-  "description": "A minimal typing test to track and improve your speed.",
+  "tagline": "A minimal, distraction-free typing speed test tool built for focus and practice.",
+  "shortDescription": "Clean typing speed test application designed to measure and improve typing performance without unnecessary distractions.",
+  "description": "Clean typing speed test application designed to measure and improve typing performance without unnecessary distractions.",
   "year": 2026,
   "status": "published",
   "category": "WEB APP",
-  "projectType": "Web app",
+  "projectType": "Personal / Learning Project",
   "technologies": [
-    "typing",
-    "practice"
+    "React",
+    "Vite",
+    "JavaScript",
+    "CSS"
   ],
-  "role": "",
+  "role": "Developer / Creator",
   "links": {
-    "github": "",
-    "demo": "",
+    "github": "https://github.com/parnilV06/TypeCraft",
+    "demo": "https://typecraft-typing-speed-test.netlify.app/",
     "documentation": ""
   },
   "media": {
-    "cover": "",
-    "images": [],
+    "cover": "/projects/media/typecraft/Screenshot 2026-10-03 174708.png",
+    "images": [
+      "/projects/media/typecraft/Screenshot 2026-10-03 174708.png",
+      "/projects/media/typecraft/Screenshot 2026-10-03 174725.png",
+      "/projects/media/typecraft/Screenshot 2026-10-03 174814.png"
+    ],
     "videos": [],
     "architecture": ""
   },
   "caseStudy": {
-    "problem": "",
-    "solution": "",
-    "features": [],
+    "problem": "Build a typing-test application that behaves correctly at character level without external typing libraries.",
+    "solution": "Implement typing engine from first principles with React state, timer lifecycle, and keyboard event handling.",
+    "features": [
+      "Custom test duration settings",
+      "Easy, Medium, and Hard difficulty modes",
+      "Real-time character-level feedback",
+      "Correct, incorrect, extra, and missed character handling",
+      "Raw WPM and Net WPM calculations",
+      "Accuracy and character statistics",
+      "Minimal dark UI"
+    ],
     "challenges": "",
-    "outcome": "",
+    "outcome": "Stable v1.0.0 application.",
     "learnings": ""
   },
   "display": {

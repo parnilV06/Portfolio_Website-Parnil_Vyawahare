@@ -1,0 +1,55 @@
+{
+  "slug": "marg-journal",
+  "title": "M.A.R.G Journal",
+  "tagline": "Multidisciplinary research journal website, branding, and paper submission platform.",
+  "shortDescription": "Website design, brand identity, and research paper submission platform for the multidisciplinary M.A.R.G research journal under Painganga Publication.",
+  "description": "Mehkar Analysis And Research Gazette (M.A.R.G) Journal is a multidisciplinary research journal under Painganga Publication. Developed full website, brand identity, paper submission workflow, and digital management.",
+  "year": 2025,
+  "status": "published",
+  "category": "FREELANCE",
+  "projectType": "Client Project / Painganga Publication",
+  "technologies": [
+    "WordPress",
+    "Elementor",
+    "Forminator",
+    "Hostinger",
+    "Graphic Design",
+    "Social Media Management"
+  ],
+  "role": "Web Developer, Designer & Digital Manager",
+  "links": {
+    "github": "",
+    "demo": "https://margjournal.com/",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "/projects/media/marg-journal/Screenshot 2026-10-03 183127.png",
+    "images": [
+      "/projects/media/marg-journal/Screenshot 2026-10-03 183127.png",
+      "/projects/media/marg-journal/Screenshot 2026-10-03 183138.png",
+      "/projects/media/marg-journal/Screenshot 2026-10-03 183142.png"
+    ],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "The journal needed an academic web presence, branded identity, and an intuitive research paper submission pipeline to launch its publication operations.",
+    "solution": "Designed and developed the official journal website on WordPress/Elementor, built a multi-step paper submission workflow using Forminator, and crafted the official logo and digital branding.",
+    "features": [
+      "Custom academic journal website built with WordPress & Elementor",
+      "Multi-step research paper submission workflow powered by Forminator",
+      "Published issues catalog and research article repository",
+      "Original logo design and academic brand identity",
+      "Hosting setup and domain configuration on Hostinger",
+      "Social media presence setup and ongoing digital management"
+    ],
+    "challenges": "Structuring an intuitive research submission workflow with manual payment verification and clear academic formatting guidelines for authors.",
+    "outcome": "Successfully launched the official M.A.R.G Journal website, establishing its digital presence and paper submission channel for Painganga Publication.",
+    "learnings": "Client project management, WordPress/Elementor customization, academic publishing workflows, and digital brand management."
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

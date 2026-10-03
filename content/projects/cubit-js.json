@@ -1,0 +1,49 @@
+{
+  "slug": "cubit-js",
+  "title": "Cubit.js",
+  "tagline": "Lightweight, dependency-free NxN Rubik's Cube state modeling and 2D net generation.",
+  "shortDescription": "A lightweight, dependency-free JavaScript/npm library for modeling and manipulating NxN Rubik's Cubes and generating framework-agnostic 2D cube-net data.",
+  "description": "Cubit.js is an open-source JavaScript/npm package developed as part of the Cubit ecosystem to model NxN Rubik's Cubes, execute verified transformations, and generate framework-agnostic 2D net visualization data without external dependencies.",
+  "year": 2026,
+  "status": "published",
+  "category": "TOOL",
+  "projectType": "Open-Source JavaScript Package / Developer Tool",
+  "technologies": [
+    "JavaScript",
+    "ESM",
+    "Node.js",
+    "npm"
+  ],
+  "role": "Library Author & Maintainer",
+  "links": {
+    "github": "https://github.com/parnilV06/Cubit.JS",
+    "demo": "https://www.npmjs.com/package/@06parnil/cubit.js",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "Rendering dynamic Rubik's Cube states across diverse web and mobile frameworks typically requires heavy 3D rendering engines or tightly coupled UI components.",
+    "solution": "Built a zero-dependency pure JavaScript/ESM mathematical engine that parses WCA-style notation, performs immutable matrix rotations for 2x2 through 5x5 cubes, and exports deterministic 2D net data consumable by SVG, Canvas, React, or CSS Grid.",
+    "features": [
+      "Zero runtime dependencies (pure JavaScript / ESM)",
+      "Immutable cube transformations for 2x2 to 5x5 cubes",
+      "Standard, prime, double, wide & multi-layer wide move parsing",
+      "Framework-agnostic 2D cube-net data generation",
+      "Physically verified rotation matrices & color conservation",
+      "Comprehensive test coverage including M⁴ identity & randomized cross-validation"
+    ],
+    "challenges": "Ensuring exact physical correctness across multi-layer slice turns and corner/edge permutations across 2x2, 3x3, 4x4, and 5x5 cube dimensions without performance degradation.",
+    "outcome": "Published open-source library with verified physical test suites, ready for consumption across web frontends, mobile frameworks, and visualization tools.",
+    "learnings": "Deep dive into 3D-to-2D matrix mapping algorithms, immutable state transformations in JavaScript, and developer-friendly API design for npm libraries."
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

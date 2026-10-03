@@ -1,35 +1,53 @@
 {
   "slug": "tw-builder",
   "title": "TW-Builder",
-  "tagline": "Convert CSS to Tailwind",
-  "shortDescription": "Convert CSS to Tailwind, instantly.",
-  "description": "Convert CSS to Tailwind, instantly.",
+  "tagline": "Build Tailwind components visually.",
+  "shortDescription": "Fully client-side visual builder for creating Tailwind CSS components using familiar CSS concepts and generating deterministic Tailwind classes and JSX.",
+  "description": "Fully client-side visual builder for creating Tailwind CSS components using familiar CSS concepts and generating deterministic Tailwind classes and JSX.",
   "year": 2026,
   "status": "published",
   "category": "TOOL",
-  "projectType": "Tool",
+  "projectType": "Personal",
   "technologies": [
-    "css",
-    "tailwind"
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Zustand",
+    "React Router",
+    "Vitest",
+    "Testing Library"
   ],
-  "role": "",
+  "role": "Developer / Creator",
   "links": {
-    "github": "",
-    "demo": "",
+    "github": "https://github.com/parnilV06/TW-Builder",
+    "demo": "https://tw-builder.vercel.app/",
     "documentation": ""
   },
   "media": {
-    "cover": "",
-    "images": [],
+    "cover": "/projects/media/tw-builder/Screenshot 2026-10-03 174834.png",
+    "images": [
+      "/projects/media/tw-builder/Screenshot 2026-10-03 174834.png",
+      "/projects/media/tw-builder/TWB.png"
+    ],
     "videos": [],
     "architecture": ""
   },
   "caseStudy": {
-    "problem": "",
-    "solution": "",
-    "features": [],
+    "problem": "Developers may know the visual CSS they want but still need to manually translate it into Tailwind utilities and JSX.",
+    "solution": "Visual builder mapping semantic styling controls directly to Tailwind utilities via an ordered property registry.",
+    "features": [
+      "div, button, input, img, section, and span controls",
+      "Layout, sizing, spacing, flex, and grid controls",
+      "Colors, borders, typography, and shadows",
+      "Responsive Base/SM/MD/LG overrides",
+      "Live component preview",
+      "JSX and Tailwind class generation",
+      "Canonical token mapping with arbitrary pixel fallback",
+      "Clipboard copy and reset"
+    ],
     "challenges": "",
-    "outcome": "",
+    "outcome": "Lightweight browser-based developer tool with no backend, accounts, persistence or API dependency.",
     "learnings": ""
   },
   "display": {

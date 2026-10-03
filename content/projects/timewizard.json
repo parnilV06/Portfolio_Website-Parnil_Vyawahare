@@ -1,0 +1,52 @@
+{
+  "slug": "timewizard",
+  "title": "TimeWizard",
+  "tagline": "Active website time tracking with persistent local timers and daily limits.",
+  "shortDescription": "A Chrome extension (Manifest V3) for monitoring active time spent on individual websites with persistent timers, tab tracking, custom limits, and automatic daily resets.",
+  "description": "TimeWizard is a Chrome extension designed to help users monitor and manage the amount of time they actively spend on individual websites. It maintains independent persistent timers that pause when switching tabs, automatically reset daily, and notify users upon reaching custom website limits.",
+  "year": 2026,
+  "status": "published",
+  "category": "TOOL",
+  "projectType": "Chrome Extension / Developer Tool",
+  "technologies": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Chrome Extension Manifest V3",
+    "Chrome Storage API",
+    "Chrome Tabs API",
+    "Browser DOM APIs"
+  ],
+  "role": "Extension Developer",
+  "links": {
+    "github": "",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "Users frequently lose track of time spent across multiple browser tabs without clear visibility into per-site active usage or customizable threshold alerts.",
+    "solution": "Created a Manifest V3 Chrome extension featuring active-tab detection, persistent per-site timers stored in Chrome local storage, draggable floating UI, and automated midnight resets.",
+    "features": [
+      "Independent active timer for each website",
+      "Persistent state across page reloads and browser restarts",
+      "Active-tab based automatic pause and resume",
+      "Automatic daily reset to 00:00:00 at midnight",
+      "Customizable website-specific time limits with browser notifications",
+      "Compact, draggable, expandable floating interface with manual reset controls"
+    ],
+    "challenges": "Maintaining consistent timer state and handling edge cases across rapid tab switching, navigation lifecycle events, and daily reset transitions without draining browser resources.",
+    "outcome": "Fully functional Manifest V3 extension providing lightweight, non-intrusive active time tracking and productivity alerts.",
+    "learnings": "Chrome Extension Manifest V3 architecture, background service workers, Chrome Storage/Tabs APIs, and DOM injection strategies."
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

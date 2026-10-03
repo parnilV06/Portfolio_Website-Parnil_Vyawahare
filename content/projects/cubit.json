@@ -1,36 +1,71 @@
 {
   "slug": "cubit",
   "title": "Cubit",
-  "tagline": "A modern speedcubing platform",
-  "shortDescription": "A modern speedcubing platform with timing, training and community.",
-  "description": "A modern speedcubing platform with timing, training and community.",
+  "tagline": "A modern speedcubing platform that blends timing, training, coaching, and community into one seamless experience.",
+  "shortDescription": "An open-source web platform for cubers that unifies precision timing, session tracking, statistics, interactive training modules, gamification, and community features into one seamless experience.",
+  "description": "Cubit is an open-source web platform built specifically for cubers. It brings solving, training, learning, progress tracking, competition, and community into one focused experience. Currently in Pre-Launch — V1 Final QA.",
   "year": 2026,
   "status": "published",
   "category": "WEB APP",
-  "projectType": "Web app",
+  "projectType": "Personal / Open-Source Product",
   "technologies": [
-    "speedcubing",
-    "community"
+    "React",
+    "Vite",
+    "JavaScript",
+    "Tailwind CSS",
+    "Zustand",
+    "Recharts",
+    "Node.js",
+    "Express.js",
+    "Prisma ORM",
+    "PostgreSQL",
+    "Neon",
+    "Socket.IO",
+    "JWT",
+    "Google Sign-In",
+    "MDX",
+    "Vercel",
+    "Railway"
   ],
-  "role": "",
+  "role": "Full-Stack Developer & Creator",
   "links": {
-    "github": "",
-    "demo": "",
+    "github": "https://github.com/parnilV06/Cubit",
+    "demo": "https://www.cubit.is-cool.dev/",
     "documentation": ""
   },
   "media": {
-    "cover": "",
-    "images": [],
-    "videos": [],
+    "cover": "/projects/media/cubit/Screenshot 2026-10-03 173126.png",
+    "images": [
+      "/projects/media/cubit/Screenshot 2026-10-03 173126.png",
+      "/projects/media/cubit/Screenshot 2026-10-03 173210.png",
+      "/projects/media/cubit/Screenshot 2026-10-03 173222.png",
+      "/projects/media/cubit/Screenshot 2026-10-03 173227.png",
+      "/projects/media/cubit/Screenshot 2026-10-03 173237.png",
+      "/projects/media/cubit/Screenshot 2026-10-03 173310.png",
+      "/projects/media/cubit/Screenshot 2026-10-03 173316.png",
+      "/projects/media/cubit/Screenshot 2026-10-03 173330.png"
+    ],
+    "videos": [
+      "/projects/media/cubit/cubit-screen-rec.mp4"
+    ],
     "architecture": ""
   },
   "caseStudy": {
-    "problem": "",
-    "solution": "",
-    "features": [],
-    "challenges": "",
-    "outcome": "",
-    "learnings": ""
+    "problem": "Cubers often have to juggle disparate tools for timing, scramble generation, algorithm learning, progress tracking, and community interaction without a unified, modern interface.",
+    "solution": "Built a comprehensive full-stack speedcubing platform combining a precision hold-to-start timer, custom cube visualization engine, 8-module/51-lesson interactive Trainer, append-only rating ledger, and real-time community capabilities.",
+    "features": [
+      "Precision speedcubing timer with hold-to-start & +2/DNF penalties",
+      "WCA-style scramble generation & 2x2–5x5 support",
+      "Solve logging, personal bests, Ao5/Ao12 & statistics trends",
+      "Custom cube-state engine, algorithm playback & 2D net visualization",
+      "Cubit Trainer: 8 learning modules & 51 canonical interactive lessons",
+      "Gamification: append-only rating ledger, streaks & milestone rewards",
+      "Real-time community feed, friendships, leaderboards & notifications",
+      "Focus Mode with dedicated solving environment & original audio"
+    ],
+    "challenges": "Designing an accurate cube-state visualization engine for 2x2 through 5x5 cubes, ensuring sub-millisecond timer responsiveness, and establishing an append-only rating reconciliation pipeline.",
+    "outcome": "Core V1 development is complete with extensive documentation (PRD, HLD, LLD, API Blueprint). The platform is currently undergoing final full-product QA before its initial public V1 release.",
+    "learnings": "Architecting modular state systems with Zustand, managing complex matrix transformations for Rubik's cubes, and designing scalable real-time architectures with Socket.IO and Prisma."
   },
   "display": {
     "featured": true,

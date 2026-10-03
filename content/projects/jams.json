@@ -1,18 +1,21 @@
 {
   "slug": "jams",
-  "title": "JAMS",
-  "tagline": "Personal AI operating system",
-  "shortDescription": "Personal AI operating system.",
-  "description": "Personal AI operating system.",
+  "title": "JAMS — Personal AI Operating System",
+  "tagline": "JAMS manages. Workers execute.",
+  "shortDescription": "A local, persistent Personal AI Operating System designed as an intelligent manager coordinating specialized AI workers via the Model Context Protocol (MCP).",
+  "description": "JAMS is a local, persistent Personal AI Operating System designed to act as an intelligent manager rather than another chatbot or coding assistant. It coordinates specialized workers while maintaining long-term context, memory, planning, task state, and decisions.",
   "year": 2026,
   "status": "published",
   "category": "EXPERIMENT",
-  "projectType": "Experiment",
+  "projectType": "Personal Project / AI Architecture",
   "technologies": [
-    "systems",
-    "experiment"
+    "Model Context Protocol (MCP)",
+    "Local Persistent AI System",
+    "File-Based State",
+    "Structured Workspace",
+    "Task Automation"
   ],
-  "role": "",
+  "role": "Architect & Developer",
   "links": {
     "github": "",
     "demo": "",
@@ -25,12 +28,19 @@
     "architecture": ""
   },
   "caseStudy": {
-    "problem": "",
-    "solution": "",
-    "features": [],
-    "challenges": "",
-    "outcome": "",
-    "learnings": ""
+    "problem": "Modern AI tools operate mostly as isolated, stateless chat sessions or narrow assistants lacking persistent memory, project-wide context, and the ability to coordinate multi-worker workflows autonomously.",
+    "solution": "Designed a manager-worker operating system where JAMS maintains high-level context, memory, task planning, and state, delegating execution to specialized workers (starting with Zoo Code) through an MCP communication layer.",
+    "features": [
+      "Manager-Worker architecture ('JAMS manages. Workers execute.')",
+      "Model Context Protocol (MCP) communication layer for task delegation",
+      "Canonical startup configuration & structured workspace (Core, Memory, Tasks, Logs)",
+      "Persistent context & memory across projects, tasks, and user preferences",
+      "Task lifecycle management (creation, assignment, progress tracking & completion)",
+      "Zoo Code specialized coding worker integration"
+    ],
+    "challenges": "Designing a robust MCP-based contract between the manager and independent worker processes while preserving persistent memory and deterministic task states across sessions.",
+    "outcome": "Foundation phase complete with canonical workspace structure (AGENTS.md, SOUL.md, IDENTITY.md, USER.md) and task template generation. Currently advancing the MCP Communication Layer.",
+    "learnings": "Agentic AI architectures, hierarchical orchestration protocols, and file-based state management for persistent local intelligence."
   },
   "display": {
     "featured": false,

@@ -1,0 +1,43 @@
+{
+  "slug": "whack-a-mole",
+  "title": "Whack A Mole",
+  "tagline": "Classic arcade game interaction and logic practice.",
+  "shortDescription": "A recreation of the Whack A Mole game using HTML, CSS, and JavaScript as a practice project for frontend interaction and game logic.",
+  "description": "A recreation of the Whack A Mole game built with HTML, CSS, and JavaScript, created as a practice project to explore frontend DOM interaction and basic game loop logic.",
+  "year": 2024,
+  "status": "published",
+  "category": "PRACTICE",
+  "projectType": "Practice / Learning Project",
+  "technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "role": "",
+  "links": {
+    "github": "",
+    "demo": "https://whack-a-mole-parnil.netlify.app/",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "/projects/media/whack-a-mole/whack-a-mole.png",
+    "images": [
+      "/projects/media/whack-a-mole/whack-a-mole.png"
+    ],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "",
+    "solution": "",
+    "features": [],
+    "challenges": "",
+    "outcome": "",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

@@ -1,35 +1,57 @@
 {
   "slug": "assetflow",
   "title": "AssetFlow",
-  "tagline": "Asset management system for teams",
-  "shortDescription": "Asset management system for teams.",
-  "description": "Asset management system for teams.",
+  "tagline": "Track • Allocate • Maintain",
+  "shortDescription": "Enterprise asset and resource management platform for managing organizational assets, allocations, bookings, maintenance, audits, and role-aware dashboards.",
+  "description": "Enterprise asset and resource management platform for managing organizational assets, allocations, bookings, maintenance, audits, and role-aware dashboards.",
   "year": 2026,
   "status": "published",
-  "category": "HACKATHON",
+  "category": "WEB APP",
   "projectType": "Hackathon",
   "technologies": [
-    "assets",
-    "teams"
+    "React",
+    "Vite",
+    "React Router",
+    "Recharts",
+    "Lucide React",
+    "Axios",
+    "Node.js",
+    "Express",
+    "Prisma",
+    "PostgreSQL",
+    "JWT",
+    "bcrypt",
+    "Zod"
   ],
-  "role": "",
+  "role": "Full-Stack Developer",
   "links": {
-    "github": "",
+    "github": "https://github.com/parnilV06/AssetFlow-Odoo_Hackathon",
     "demo": "",
     "documentation": ""
   },
   "media": {
-    "cover": "",
-    "images": [],
+    "cover": "/projects/media/assetflow/assetflow.png",
+    "images": [
+      "/projects/media/assetflow/assetflow.png"
+    ],
     "videos": [],
     "architecture": ""
   },
   "caseStudy": {
-    "problem": "",
-    "solution": "",
-    "features": [],
-    "challenges": "",
-    "outcome": "",
+    "problem": "Organizations need a centralized way to track physical assets, ownership, allocations, bookings, maintenance, and audits.",
+    "solution": "A role-aware ERP-style platform with dedicated asset, allocation, booking, maintenance, audit, and analytics modules.",
+    "features": [
+      "Authentication and role-based access control (ADMIN, ASSET_MANAGER, DEPARTMENT_HEAD, EMPLOYEE)",
+      "Department and employee management",
+      "Asset lifecycle tracking and allocation",
+      "Asset returns and inter-department transfers",
+      "Resource booking and scheduling",
+      "Maintenance tracking and audit logs",
+      "Dashboard analytics with Recharts",
+      "Notifications, reports, and settings"
+    ],
+    "challenges": "Multiple role-dependent workflows; relational modeling of allocations/transfers/bookings/maintenance/audits; separation of controllers, services and persistence; hackathon-scale coordination.",
+    "outcome": "Deployed hackathon-stage prototype with substantially implemented backend and broad frontend module coverage.",
     "learnings": ""
   },
   "display": {

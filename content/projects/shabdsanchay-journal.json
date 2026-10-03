@@ -1,0 +1,55 @@
+{
+  "slug": "shabdsanchay-journal",
+  "title": "Shabdsanchay Journal",
+  "tagline": "Peer-reviewed multidisciplinary research journal website and publishing portal.",
+  "shortDescription": "Website design, logo identity, and research paper submission platform for Shabdsanchay Journal under Painganga Publication.",
+  "description": "Shabdsanchay is a multidisciplinary peer-reviewed research journal published by Painganga Publication. Developed full website on Wix Studio, logo design, social presence, and paper submission platform as the first professional client project.",
+  "year": 2024,
+  "status": "published",
+  "category": "FREELANCE",
+  "projectType": "Client Project / Painganga Publication",
+  "technologies": [
+    "Wix Studio",
+    "Graphic Design",
+    "Logo Design",
+    "Social Media Management"
+  ],
+  "role": "Web Developer, Designer & Digital Manager",
+  "links": {
+    "github": "",
+    "demo": "https://www.shabdsanchay.co.in/",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "/projects/media/shabdsanchay-journal/Screenshot 2026-10-03 183031.png",
+    "images": [
+      "/projects/media/shabdsanchay-journal/Screenshot 2026-10-03 183031.png",
+      "/projects/media/shabdsanchay-journal/Screenshot 2026-10-03 183036.png",
+      "/projects/media/shabdsanchay-journal/Screenshot 2026-10-03 183042.png",
+      "/projects/media/shabdsanchay-journal/Screenshot 2026-10-03 183049.png",
+      "/projects/media/shabdsanchay-journal/Screenshot 2026-10-03 183122.png"
+    ],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "Painganga Publication required a dedicated digital portal for Shabdsanchay Journal to accept researcher submissions, showcase published issues, and establish digital presence.",
+    "solution": "Designed and delivered the official Shabdsanchay website using Wix Studio, designed the publication logo and brand assets, and established official social media channels.",
+    "features": [
+      "Custom research journal website built on Wix Studio",
+      "Digital paper submission workflow for researchers",
+      "Published issues catalog and article access portal",
+      "Original logo design aligned with academic branding",
+      "Social media setup and digital presence management",
+      "Ongoing website maintenance and issue publication updates"
+    ],
+    "challenges": "Translating academic publication guidelines into an intuitive user journey on Wix Studio while delivering my first commercial client engagement.",
+    "outcome": "Successfully delivered my first professional client project on schedule, providing Painganga Publication with an operational journal portal.",
+    "learnings": "End-to-end client stakeholder communication, rapid prototyping with Wix Studio, visual brand alignment, and production maintenance."
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

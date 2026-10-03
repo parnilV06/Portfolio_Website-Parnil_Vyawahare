@@ -1,0 +1,37 @@
+{
+  "slug": "spotshare",
+  "title": "SpotShare",
+  "tagline": "Discovering hyperlocal food spots and hidden gems.",
+  "shortDescription": "A community-based, mobile-first web application for discovering hyperlocal food spots and hidden gems, developed for SIH 2025 under the Travel & Tourism theme.",
+  "description": "SpotShare is a community-based, mobile-first web application for discovering hyperlocal food spots and hidden gems. Created as an entry for the Smart India Hackathon 2025 under the Travel & Tourism theme (Student Innovation).",
+  "year": 2025,
+  "status": "published",
+  "category": "HACKATHON",
+  "projectType": "Smart India Hackathon 2025 — Student Innovation",
+  "technologies": [],
+  "role": "",
+  "links": {
+    "github": "",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "",
+    "solution": "",
+    "features": [],
+    "challenges": "",
+    "outcome": "",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

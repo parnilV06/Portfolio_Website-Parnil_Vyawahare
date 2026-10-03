@@ -63,6 +63,7 @@ export interface Project {
   id: string;
   number: string;
   title: string;
+  tagline?: string;
   description: string;
   category: ProjectCategory;
   tags: string[];
@@ -73,13 +74,20 @@ export interface Project {
   overview?: string;
   problem?: string;
   solution?: string;
+  features?: string[];
   contribution?: string;
+  role?: string;
   process?: string;
+  challenges?: string;
   outcome?: string;
+  learnings?: string;
   technologies?: string[];
   liveUrl?: string;
   githubUrl?: string;
+  documentationUrl?: string;
+  cover?: string;
   images?: string[];
+  videos?: string[];
 }
 
 const FOLDER_COLORS = ["#171717", "#1a1a1a", "#141414", "#1d1d1d", "#181818"];
@@ -87,19 +95,31 @@ const FOLDER_COLORS = ["#171717", "#1a1a1a", "#141414", "#1d1d1d", "#181818"];
 // Curated folder titles for known projects to guarantee 100% visual consistency
 const KNOWN_FOLDER_TITLES: Record<string, [string, string]> = {
   cubit: ["Cu", "bit"],
+  "cubit-js": ["Cu", "bit.js"],
   slottrack: ["Slot", "Track"],
   "tw-builder": ["TW-", "Builder"],
   typecraft: ["Type", "Craft"],
   assetflow: ["Asset", "Flow"],
+  "moltstein-files": ["Molt", "Stein"],
+  "expense-tracker": ["Expense", "Tracker"],
+  "leetcode-question-tracker": ["Leet", "Code"],
+  "coderecall-ai": ["Code", "Recall"],
+  "kalvium-video-generator": ["Kalvium", "Video"],
+  swarveda: ["Swar", "Veda"],
   claire: ["Cl", "aire"],
+  bittrack: ["Bit", "Track"],
+  bittrace: ["Bit", "Trace"],
   jams: ["JA", "MS"],
   "nike-clone": ["Nike", "Clone"],
+  "whack-a-mole": ["Whack", "A-Mole"],
   "painganga-publications": ["Painganga", "Pub."],
-  "moltsteine-files": ["Molt", "Steine"],
-  "sih-bitcoin-analyzer": ["SIH", "Bitcoin"],
+  spotshare: ["Spot", "Share"],
+  timewizard: ["Time", "Wizard"],
   nutriscope: ["Nutri", "Scope"],
   leetlibrary: ["Leet", "Library"],
-  "kalvium-extension": ["Kalvium", "Ext."],
+  lifeline: ["Life", "Line"],
+  "marg-journal": ["M.A.R.G", "Journal"],
+  "shabdsanchay-journal": ["Shabd", "sanchay"],
 };
 
 function generateFolderTitle(slug: string, title: string): [string, string] {
@@ -168,6 +188,7 @@ export function transformToUIProject(schema: ProjectSchema, index: number): Proj
     id: schema.slug,
     number,
     title: schema.title,
+    tagline: schema.tagline,
     description: schema.shortDescription || schema.description || "",
     category: (schema.category as ProjectCategory) || "MISC",
     tags: schema.technologies || [],
@@ -176,17 +197,50 @@ export function transformToUIProject(schema: ProjectSchema, index: number): Proj
     folderColor,
     folderTitle,
     overview: schema.description || schema.shortDescription,
-    problem: schema.caseStudy?.problem,
-    solution: schema.caseStudy?.solution,
-    contribution: schema.role,
-    process: schema.caseStudy?.challenges,
-    outcome: schema.caseStudy?.outcome,
-    technologies: schema.technologies,
-    liveUrl: schema.links?.demo,
-    githubUrl: schema.links?.github,
-    images: schema.media?.images,
+    problem: schema.caseStudy?.problem || undefined,
+    solution: schema.caseStudy?.solution || undefined,
+    features: schema.caseStudy?.features && schema.caseStudy.features.length > 0 ? schema.caseStudy.features : undefined,
+    contribution: schema.role || undefined,
+    role: schema.role || undefined,
+    process: schema.caseStudy?.challenges || undefined,
+    challenges: schema.caseStudy?.challenges || undefined,
+    outcome: schema.caseStudy?.outcome || undefined,
+    learnings: schema.caseStudy?.learnings || undefined,
+    technologies: schema.technologies && schema.technologies.length > 0 ? schema.technologies : undefined,
+    liveUrl: schema.links?.demo || undefined,
+    githubUrl: schema.links?.github || undefined,
+    documentationUrl: schema.links?.documentation || undefined,
+    cover: schema.media?.cover || undefined,
+    images: schema.media?.images && schema.media.images.length > 0 ? schema.media.images : undefined,
+    videos: schema.media?.videos && schema.media.videos.length > 0 ? schema.media.videos : undefined,
   };
 }
+
+// Explicit custom ordering for All Projects section
+const ALL_PROJECTS_ORDER: string[] = [
+  "cubit",
+  "slottrack",
+  "typecraft",
+  "claire",
+  "tw-builder",
+  "bittrace",
+  "cubit-js",
+  "marg-journal",
+  "shabdsanchay-journal",
+  "lifeline",
+  "assetflow",
+  "moltstein-files",
+  "jams",
+  "spotshare",
+  "timewizard",
+  "whack-a-mole",
+  "swarveda",
+  "coderecall-ai",
+  "leetcode-question-tracker",
+  "kalvium-video-generator",
+  "expense-tracker",
+  "nike-clone",
+];
 
 /**
  * Get all published projects formatted for UI components (e.g. All Projects page).
@@ -196,16 +250,16 @@ export function getPublishedProjects(): Project[] {
     (project) => project.display?.showInProjects !== false
   );
 
-  // Sort: featured projects in their featured order first, then others by year/order
-  const featured = published
-    .filter((p) => p.display?.featured)
-    .sort((a, b) => (a.display?.featuredOrder ?? 999) - (b.display?.featuredOrder ?? 999));
+  const sorted = [...published].sort((a, b) => {
+    const indexA = ALL_PROJECTS_ORDER.indexOf(a.slug);
+    const indexB = ALL_PROJECTS_ORDER.indexOf(b.slug);
+    if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+    if (indexA !== -1) return -1;
+    if (indexB !== -1) return 1;
+    return 0;
+  });
 
-  const nonFeatured = published.filter((p) => !p.display?.featured);
-
-  const combined = [...featured, ...nonFeatured];
-
-  return combined.map((schema, index) => transformToUIProject(schema, index));
+  return sorted.map((schema, index) => transformToUIProject(schema, index));
 }
 
 /**
@@ -216,3 +270,15 @@ export function getFeaturedProjects(): Project[] {
     transformToUIProject(schema, index)
   );
 }
+
+/**
+ * Format live link label for display (custom domains for production sites, npm package, or Live Demo).
+ */
+export function formatLiveUrlLabel(url: string, projectSlug?: string): string {
+  if (projectSlug === "cubit") return "cubit.is-cool.dev";
+  if (projectSlug === "marg-journal") return "margjournal.com";
+  if (projectSlug === "shabdsanchay-journal") return "shabdsanchay.co.in";
+  if (projectSlug === "cubit-js" || url.includes("npmjs.com")) return "npm Package";
+  return "Live Demo";
+}
+

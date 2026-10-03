@@ -8,6 +8,7 @@ import {
   getFeaturedProjects,
   getAllProjectSchemas,
   getProjectBySlug,
+  formatLiveUrlLabel,
   type Project,
   type ProjectCategory,
   type ProjectSchema,
@@ -19,6 +20,7 @@ export {
   getFeaturedProjects,
   getAllProjectSchemas,
   getProjectBySlug,
+  formatLiveUrlLabel,
 };
 
 export const PROJECTS: Project[] = getPublishedProjects();

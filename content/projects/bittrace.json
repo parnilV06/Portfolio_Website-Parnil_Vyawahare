@@ -1,0 +1,63 @@
+{
+  "slug": "bittrace",
+  "title": "BITTRACE",
+  "tagline": "Offline Bitcoin transaction and network metadata investigation platform.",
+  "shortDescription": "An offline Bitcoin investigation platform correlating network and blockchain metadata using explainable ML (Isolation Forest, DBSCAN) to rank investigative leads.",
+  "description": "BITTRACE is an offline Bitcoin transaction and network metadata investigation platform built for Smart India Hackathon 2026 (NTRO). It ingests bulk blockchain/network metadata, builds entity graphs, and employs explainable ML to identify anomalies and rank investigative leads in an offline environment.",
+  "year": 2026,
+  "status": "published",
+  "category": "HACKATHON",
+  "projectType": "Smart India Hackathon 2026 / NTRO",
+  "technologies": [
+    "React",
+    "Vite",
+    "Cytoscape.js",
+    "Recharts",
+    "TypeScript",
+    "Python",
+    "FastAPI",
+    "Pydantic",
+    "SQLAlchemy",
+    "Pandas",
+    "NumPy",
+    "NetworkX",
+    "scikit-learn",
+    "Isolation Forest",
+    "DBSCAN",
+    "PostgreSQL",
+    "Linux"
+  ],
+  "role": "Full-Stack & ML Pipeline Developer",
+  "links": {
+    "github": "https://github.com/rizzzabh-06/BIT-TRACE",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "Investigators analyzing suspicious Bitcoin transactions face massive volumes of unlinked network and transaction metadata, with strict security constraints requiring completely offline analysis without external cloud APIs.",
+    "solution": "Designed a secure offline-first intelligence platform that ingests CSV/JSON/XML datasets, resolves entities across IP/ASN and blockchain records, constructs NetworkX graph models, and generates explainable ML risk scores using Isolation Forest and DBSCAN.",
+    "features": [
+      "Offline bulk ingestion & normalization for CSV, JSON, and XML metadata",
+      "Local GeoIP & ASN offline database resolution",
+      "Network and blockchain metadata correlation engine",
+      "Interactive graph visualization powered by Cytoscape.js and Recharts",
+      "Explainable anomaly detection via Isolation Forest and DBSCAN clustering",
+      "Investigator lead ranking with detailed confidence and risk breakdown",
+      "FastAPI backend with PostgreSQL storage and local caching"
+    ],
+    "challenges": "Correlating multi-dimensional network features with transaction graphs offline without external API lookups while ensuring ML anomaly scoring remains transparent and interpretable for human investigators.",
+    "outcome": "Engineered a working MVP intelligence pipeline capable of offline entity resolution, graph generation, and anomaly ranking for SIH2026 / NTRO problem statement.",
+    "learnings": "Offline ML pipeline design with scikit-learn, high-performance graph modeling using NetworkX & Cytoscape.js, and explainable AI risk scoring."
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

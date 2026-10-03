@@ -1,35 +1,63 @@
 {
   "slug": "slottrack",
   "title": "SlotTrack",
-  "tagline": "Track your college slots",
-  "shortDescription": "Track your college slots, simple and smart.",
-  "description": "Track your college slots, simple and smart.",
+  "tagline": "A race-condition-safe fitness class booking platform.",
+  "shortDescription": "Fitness-class booking platform designed around real-time seat availability and concurrency-safe reservations.",
+  "description": "Fitness-class booking platform designed around real-time seat availability and concurrency-safe reservations.",
   "year": 2026,
   "status": "published",
   "category": "WEB APP",
-  "projectType": "Web app",
+  "projectType": "Academic / SWI",
   "technologies": [
-    "college",
-    "planning"
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "PostgreSQL",
+    "Neon",
+    "Prisma",
+    "NextAuth.js",
+    "bcrypt",
+    "Zod",
+    "Docker",
+    "Docker Compose",
+    "React Hook Form",
+    "Axios",
+    "JWT",
+    "Lucide React"
   ],
   "role": "",
   "links": {
-    "github": "",
-    "demo": "",
+    "github": "https://github.com/parnilV06/S115-0726-Byte3-Fullstack-nextJS--SlotTrack",
+    "demo": "https://byte3-slot-track.vercel.app/",
     "documentation": ""
   },
   "media": {
-    "cover": "",
-    "images": [],
+    "cover": "/projects/media/slottrack/Screenshot 2026-08-20 225817.png",
+    "images": [
+      "/projects/media/slottrack/Screenshot 2026-08-20 225817.png",
+      "/projects/media/slottrack/Screenshot 2026-08-20 225824.png",
+      "/projects/media/slottrack/Screenshot 2026-08-20 225849.png",
+      "/projects/media/slottrack/Screenshot 2026-08-20 225948.png"
+    ],
     "videos": [],
     "architecture": ""
   },
   "caseStudy": {
-    "problem": "",
-    "solution": "",
-    "features": [],
-    "challenges": "",
-    "outcome": "",
+    "problem": "A booking system must keep seat inventory correct when multiple users reserve the same class simultaneously.",
+    "solution": "Combine application validation with database transactions and row locking (SELECT ... FOR UPDATE) so availability is updated atomically.",
+    "features": [
+      "Member and admin authentication",
+      "Role-based access control (RBAC)",
+      "Class discovery with location and search filtering",
+      "Live seat availability tracking",
+      "Booking and cancellation flows",
+      "Booking history and user profiles",
+      "Admin class and instructor management",
+      "Attendance monitoring and booking audits"
+    ],
+    "challenges": "Concurrency; consistent seat counts; duplicate reservations; separation of business logic and persistence.",
+    "outcome": "Structured booking system centered around reservation consistency.",
     "learnings": ""
   },
   "display": {

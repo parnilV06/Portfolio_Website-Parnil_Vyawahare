@@ -1,0 +1,52 @@
+{
+  "slug": "lifeline",
+  "title": "LifeLine",
+  "tagline": "Real-time ambulance dispatch and hospital coordination platform.",
+  "shortDescription": "A real-time ambulance dispatch and operations platform connecting dispatchers, drivers, and hospitals with live tracking, incident management, and RBAC.",
+  "description": "LifeLine is a real-time Android ambulance dispatch and operations platform built with Flutter and Firebase. It coordinates dispatchers, emergency drivers, and hospitals through live fleet maps, automated incident logging, and role-based access control.",
+  "year": 2026,
+  "status": "published",
+  "category": "MISC",
+  "projectType": "Academic / Mobile / Real-Time System",
+  "technologies": [
+    "Flutter",
+    "Dart",
+    "Firebase Authentication",
+    "Cloud Firestore",
+    "Google Maps",
+    "Google Places",
+    "Android"
+  ],
+  "role": "Mobile & Backend Developer",
+  "links": {
+    "github": "https://github.com/kalviumcommunity/S115-0826-Sudo-Android-flutter-firebase-LifeLine/releases/latest",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "Emergency medical dispatch often suffers from communication delays, lack of live fleet visibility, and disconnected hospital coordination during critical transit windows.",
+    "solution": "Engineered a layered Flutter & Firebase architecture providing dedicated Dispatcher, Driver, and Admin portals synchronized in real time via Cloud Firestore and Google Maps.",
+    "features": [
+      "Dispatcher dashboard with live fleet map & real-time ambulance status",
+      "Incident creation, priority tracking & emergency timeline history",
+      "Driver dashboard with real-time turn-by-turn hospital routing & status toggles",
+      "Admin portal for RBAC, hospital management, ambulance fleet & user accounts",
+      "Cloud Firestore realtime synchronization for fleet telemetry and incident state",
+      "Google Maps & Google Places integration for location-based hospital selection"
+    ],
+    "challenges": "Managing multi-role state transitions, live geolocation streaming, and offline-tolerant Firebase synchronization across drivers and dispatchers.",
+    "outcome": "Released production-ready APK (LifeLine-v1.0.0.apk) with complete role-based workflows and verified real-time dispatch capabilities.",
+    "learnings": "Flutter layered architecture (UI → Controllers → Repositories), Firestore real-time listener patterns, and Google Maps SDK integration for Android."
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

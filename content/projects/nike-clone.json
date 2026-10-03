@@ -1,16 +1,16 @@
 {
   "slug": "nike-clone",
-  "title": "Nike Clone",
-  "tagline": "Frontend practice project",
-  "shortDescription": "Frontend practice project.",
-  "description": "Frontend practice project.",
-  "year": 2026,
+  "title": "Nike Website Clone",
+  "tagline": "Practice recreation of the Nike homepage.",
+  "shortDescription": "A practice recreation of the Nike website homepage created to learn and practice HTML and CSS layout techniques.",
+  "description": "A practice recreation of the Nike website homepage created as a practice project for learning and practicing HTML and CSS layout techniques.",
+  "year": 2024,
   "status": "published",
   "category": "PRACTICE",
-  "projectType": "Practice",
+  "projectType": "Practice / Learning Project",
   "technologies": [
-    "frontend",
-    "practice"
+    "HTML",
+    "CSS"
   ],
   "role": "",
   "links": {

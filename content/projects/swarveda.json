@@ -1,0 +1,64 @@
+{
+  "slug": "swarveda",
+  "title": "SwarVeda",
+  "tagline": "The Science of Indian Classical Music",
+  "shortDescription": "Interactive educational platform explaining mathematical, physical and acoustic foundations of Indian classical music.",
+  "description": "Interactive educational platform explaining mathematical, physical and acoustic foundations of Indian classical music.",
+  "year": 2026,
+  "status": "published",
+  "category": "WEB APP",
+  "projectType": "Academic / IKS",
+  "technologies": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Web Audio API",
+    "Canvas API",
+    "Express",
+    "Zod",
+    "React Router",
+    "React Query",
+    "Recharts",
+    "Framer Motion",
+    "Three.js",
+    "React Three Fiber",
+    "Radix UI"
+  ],
+  "role": "Contributor / Project Management",
+  "links": {
+    "github": "https://github.com/parnilV06/SwarVeda-IKS",
+    "demo": "https://swarveda-iks.netlify.app/",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "/projects/media/swarveda/Screenshot 2026-10-03 174450.png",
+    "images": [
+      "/projects/media/swarveda/Screenshot 2026-10-03 174450.png",
+      "/projects/media/swarveda/Screenshot 2026-10-03 174456.png",
+      "/projects/media/swarveda/Screenshot 2026-10-03 174500.png",
+      "/projects/media/swarveda/Screenshot 2026-10-03 174512.png"
+    ],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "Scientific and mathematical aspects of Indian classical music can be difficult to understand through conventional textual explanations.",
+    "solution": "Interactive visual/audio experiences demonstrating frequencies, ratios, sound waves, ragas and rhythm.",
+    "features": [
+      "Science of Sound exploration",
+      "Frequency Visualizer with note selection and Just Intonation ratios (Sa=240Hz)",
+      "Waveform visualization via Canvas API",
+      "Raga Explorer with Arohana, Avarohana, Vadi, and Samvadi",
+      "Rhythm Labs for Taal beat cycles and mathematical divisions"
+    ],
+    "challenges": "",
+    "outcome": "Interdisciplinary educational platform connecting modern web technology with IKS concepts.",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

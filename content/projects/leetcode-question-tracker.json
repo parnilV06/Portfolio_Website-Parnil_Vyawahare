@@ -1,0 +1,50 @@
+{
+  "slug": "leetcode-question-tracker",
+  "title": "LeetCode Question Tracker",
+  "tagline": "Personal DSA revision tool for solved problem tracking.",
+  "shortDescription": "Personal DSA revision tool for recording solved LeetCode problems, solution code, status and tags.",
+  "description": "Personal DSA revision tool for recording solved LeetCode problems, solution code, status and tags.",
+  "year": 2026,
+  "status": "published",
+  "category": "TOOL",
+  "projectType": "Personal",
+  "technologies": [
+    "Node.js",
+    "Express",
+    "SQLite",
+    "better-sqlite3",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "role": "Developer / Creator",
+  "links": {
+    "github": "https://github.com/parnilV06/Leetcode-Question-Tracker",
+    "demo": "https://dainty-pie-d200aa.netlify.app/",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "Previously solved DSA questions and approaches can become difficult to find during revision.",
+    "solution": "Centralize solved questions, code and tags in a dedicated revision application.",
+    "features": [
+      "Store LeetCode questions and problem tags",
+      "Store solution code and revision status",
+      "Retrieve and filter questions for structured revision",
+      "Lightweight SQLite persistence with better-sqlite3"
+    ],
+    "challenges": "",
+    "outcome": "",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

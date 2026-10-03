@@ -1,0 +1,56 @@
+{
+  "slug": "expense-tracker",
+  "title": "Expense Tracker",
+  "tagline": "Full-stack expense dashboard with category analytics.",
+  "shortDescription": "Full-stack expense dashboard for managing income and expenses, filtering transactions and generating category-based spending reports.",
+  "description": "Full-stack expense dashboard for managing income and expenses, filtering transactions and generating category-based spending reports.",
+  "year": 2026,
+  "status": "published",
+  "category": "WEB APP",
+  "projectType": "Personal",
+  "technologies": [
+    "React",
+    "Vite",
+    "CSS",
+    "Fetch API",
+    "LocalStorage",
+    "Node.js",
+    "Express",
+    "MongoDB Atlas",
+    "Mongoose",
+    "dotenv"
+  ],
+  "role": "Developer / Creator",
+  "links": {
+    "github": "https://github.com/parnilV06/Expense-Tracker",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "Users need more than transaction lists; they need filtered views and aggregated spending information.",
+    "solution": "Dashboard combining transaction management with category-level financial summaries using MongoDB aggregation pipelines.",
+    "features": [
+      "User signup and login",
+      "Income and expense tracking",
+      "Total income, expense, and balance calculations",
+      "Transaction history with date filtering",
+      "Category spending aggregation reports via $facet",
+      "Spending percentage breakdowns",
+      "Dark dashboard theme"
+    ],
+    "challenges": "",
+    "outcome": "",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "kalvium-video-generator",
+  "title": "Kalvium Auto Assignment Video Generator",
+  "tagline": "Automated assignment explanation videos from assignment descriptions.",
+  "shortDescription": "Desktop application converting assignment descriptions into AI-generated scripts, locally synthesizing voiceovers and automatically producing MP4 explanation videos.",
+  "description": "Desktop application converting assignment descriptions into AI-generated scripts, locally synthesizing voiceovers and automatically producing MP4 explanation videos.",
+  "year": 2026,
+  "status": "published",
+  "category": "TOOL",
+  "projectType": "Personal / Academic Tool",
+  "technologies": [
+    "React",
+    "Vite",
+    "Electron",
+    "Node.js",
+    "Express",
+    "Google Gemini API",
+    "Piper TTS",
+    "FFmpeg",
+    "Electron Builder",
+    "NSIS"
+  ],
+  "role": "Developer / Creator",
+  "links": {
+    "github": "https://github.com/parnilV06/Kalvium-Auto-Assignment-Video-Generator/releases/tag/v1.0.0",
+    "demo": "",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "",
+    "images": [],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "Manually recording assignment explanation videos is repetitive and time-consuming.",
+    "solution": "Automate the workflow from written assignment description to final MP4 by combining cloud AI script generation with local offline TTS and video encoding.",
+    "features": [
+      "AI script generation via Google Gemini API",
+      "Local/offline voice synthesis using Piper TTS",
+      "Automated video rendering with FFmpeg",
+      "One-click generation workflow",
+      "Packaged Windows installer (NSIS)"
+    ],
+    "challenges": "Hybrid Electron architecture combining cloud AI generation with local media processing.",
+    "outcome": "Packaged desktop workflow capable of generating submission-ready explanation videos.",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}

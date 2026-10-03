@@ -1,0 +1,50 @@
+{
+  "slug": "coderecall-ai",
+  "title": "CodeRecall AI",
+  "tagline": "Understand your old code without re-solving it.",
+  "shortDescription": "LLM-powered developer tool that explains existing programming solutions by adding concise inline comments reconstructing the reasoning behind the code.",
+  "description": "LLM-powered developer tool that explains existing programming solutions by adding concise inline comments reconstructing the reasoning behind the code.",
+  "year": 2026,
+  "status": "published",
+  "category": "TOOL",
+  "projectType": "Personal",
+  "technologies": [
+    "Node.js",
+    "Express",
+    "OpenRouter",
+    "GPT-4o-mini",
+    "JavaScript"
+  ],
+  "role": "Developer / Creator",
+  "links": {
+    "github": "https://github.com/parnilV06/CodeRecall-AI",
+    "demo": "https://stately-flan-d33de5.netlify.app/",
+    "documentation": ""
+  },
+  "media": {
+    "cover": "/projects/media/coderecall-ai/coderecall-ai.png",
+    "images": [
+      "/projects/media/coderecall-ai/coderecall-ai.png"
+    ],
+    "videos": [],
+    "architecture": ""
+  },
+  "caseStudy": {
+    "problem": "Developers may remember a solution but forget why particular conditions, calculations or pointer movements were used when revisiting it later.",
+    "solution": "Provide the problem statement and existing code; return the same code with useful inline explanations.",
+    "features": [
+      "Problem statement input interface",
+      "Code submission input",
+      "AI reasoning reconstruction via GPT-4o-mini",
+      "Inline-commented code generation via /explain-code"
+    ],
+    "challenges": "",
+    "outcome": "Deployed MVP developer utility.",
+    "learnings": ""
+  },
+  "display": {
+    "featured": false,
+    "featuredOrder": null,
+    "showInProjects": true
+  }
+}
