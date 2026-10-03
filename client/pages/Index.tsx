@@ -1332,9 +1332,16 @@ function ExperienceSection() {
               </aside>
             </div>
             <div className="experience-bottom-row">
-              <button type="button" className="experience-resume-button cursor-can-hover" data-cursor-kind="small" disabled title="Resume destination coming soon">
+              <a
+                href="/Resume-Parnil-Vyawahare-Portfolio.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="experience-resume-button cursor-can-hover"
+                data-cursor-kind="small"
+                aria-label="View full resume PDF"
+              >
                 View full resume <span aria-hidden="true">↗</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -1677,12 +1684,25 @@ function PortfolioPopover({
               <h2 id="popover-title">My <em>Resume.</em></h2>
               <p>A quick look at my background, skills and experience. You can view it online or download a copy.</p>
               <div className="popover-actions">
-                <button type="button" className="cursor-can-hover" data-cursor-kind="small" disabled title="Resume destination coming soon">
+                <a
+                  href="/Resume-Parnil-Vyawahare-Portfolio.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cursor-can-hover"
+                  data-cursor-kind="small"
+                  aria-label="View Resume PDF Online"
+                >
                   View Online <span aria-hidden="true">↗</span>
-                </button>
-                <button type="button" className="cursor-can-hover" data-cursor-kind="small" disabled title="Resume PDF coming soon">
+                </a>
+                <a
+                  href="/Resume-Parnil-Vyawahare-Portfolio.pdf"
+                  download="Resume-Parnil-Vyawahare-Portfolio.pdf"
+                  className="cursor-can-hover"
+                  data-cursor-kind="small"
+                  aria-label="Download Resume PDF"
+                >
                   Download PDF <span aria-hidden="true">↓</span>
-                </button>
+                </a>
               </div>
             </div>
             <aside className="popover-meta" aria-label="Resume contents">

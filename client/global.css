@@ -1386,10 +1386,17 @@ a:focus-visible {
   border-radius: 999px;
   background: transparent;
   color: var(--text-secondary);
-  cursor: not-allowed;
+  cursor: pointer;
   font-family: "Satoshi", sans-serif;
   font-size: 0.72rem;
-  opacity: 0.75;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.experience-resume-button:hover {
+  background: rgba(0, 255, 245, 0.08);
+  border-color: var(--accent);
+  color: var(--text);
 }
 
 .experience-resume-button span {
@@ -4249,7 +4256,8 @@ a:focus-visible {
   margin-top: 30px;
 }
 
-.popover-actions button {
+.popover-actions button,
+.popover-actions a {
   display: inline-flex;
   min-height: 44px;
   align-items: center;
@@ -4263,15 +4271,34 @@ a:focus-visible {
   font-family: "Satoshi", sans-serif;
   font-size: 0.75rem;
   font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
 
-.popover-actions button+button {
+.popover-actions button+button,
+.popover-actions a+a,
+.popover-actions button+a,
+.popover-actions a+button {
   border-color: rgba(242, 242, 238, 0.34);
   background: transparent;
   color: var(--text);
 }
 
-.popover-actions button:disabled {
+.popover-actions button:hover,
+.popover-actions a:hover {
+  opacity: 0.92;
+}
+
+.popover-actions button+button:hover,
+.popover-actions a+a:hover,
+.popover-actions button+a:hover,
+.popover-actions a+button:hover {
+  border-color: rgba(242, 242, 238, 0.6);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.popover-actions button:disabled,
+.popover-actions a:disabled {
   cursor: not-allowed;
   opacity: 0.56;
 }
