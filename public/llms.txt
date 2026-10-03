@@ -1,0 +1,81 @@
+# Parnil Vyawahare — Portfolio & Technical Profile
+
+> Website: https://parnil.me  
+> GitHub: https://github.com/parnilV06  
+> LinkedIn: https://www.linkedin.com/in/parnil-vyawahare-70a1b028/  
+> Contact Email: 06.v.parrnil@gmail.com  
+
+## About
+Parnil Vyawahare is a Computer Science undergraduate student, full-stack software developer, and product builder based in Pune, India (studying at MIT ADT University). He designs and engineers performant web applications, developer utilities, real-time distributed platforms, and AI-assisted tools with a strong focus on clean architecture, minimal design aesthetics, and technical reliability.
+
+## Core Technical Skills
+- **Languages:** JavaScript (ES6+), TypeScript, Python, Dart, HTML5, CSS3, SQL
+- **Frontend Development:** React, Next.js, Vite, Tailwind CSS, Zustand, Recharts, Cytoscape.js, Three.js, Lucide Icons, Radix UI
+- **Backend & APIs:** Node.js, Express.js, FastAPI, Prisma ORM, REST APIs, Socket.IO, JWT
+- **Databases & Cloud:** PostgreSQL, Neon DB, Cloud Firestore, Firebase Authentication, MongoDB, Hostinger
+- **DevOps & Architecture:** Docker, Git, GitHub Actions, Netlify, Vercel, Railway, Model Context Protocol (MCP), Linux
+- **Mobile Development:** Flutter, Android
+
+---
+
+## Featured Projects
+
+### 1. Cubit
+- **Category:** Web Application / Speedcubing
+- **Status:** Pre-Launch — V1 Final QA
+- **Live URL:** https://www.cubit.is-cool.dev/
+- **GitHub:** https://github.com/parnilV06/Cubit
+- **Tech Stack:** React, Vite, JavaScript, Tailwind CSS, Zustand, Recharts, Node.js, Express.js, Prisma ORM, PostgreSQL, Neon, Socket.IO, JWT, Google Sign-In, MDX, Vercel, Railway
+- **Description:** An open-source speedcubing platform unifying precision hold-to-start timing, WCA-style scramble generation, 2×2–5×5 cube support, custom 2D/3D visualization engine, an 8-module/51-lesson Cubit Trainer, append-only rating ledger, streaks, real-time community feed, and Focus Mode.
+
+### 2. SlotTrack
+- **Category:** Full-Stack Web Application
+- **Live URL:** https://byte3-slot-track.vercel.app/
+- **GitHub:** https://github.com/parnilV06/S115-0726-Byte3-Fullstack-nextJS--SlotTrack
+- **Tech Stack:** Next.js, React, TypeScript, Tailwind CSS, PostgreSQL, Neon, Prisma, NextAuth.js, bcrypt, Zod, Docker, Docker Compose
+- **Description:** A race-condition-safe fitness class booking system engineered with atomic database transactions and row-level locking (SELECT ... FOR UPDATE) to prevent double-booking and maintain strict inventory consistency under concurrent reservations.
+
+### 3. TypeCraft
+- **Category:** Web Application / Developer Tool
+- **Live URL:** https://typecraft-typing-speed-test.netlify.app/
+- **GitHub:** https://github.com/parnilV06/TypeCraft
+- **Tech Stack:** React, Vite, JavaScript, CSS
+- **Description:** A minimal, distraction-free typing speed test built from first principles with custom test durations, difficulty presets, character-level accuracy calculations (Raw WPM, Net WPM), and dark mode interface.
+
+### 4. TW-Builder
+- **Category:** Developer Tool
+- **Live URL:** https://tw-builder.vercel.app/
+- **GitHub:** https://github.com/parnilV06/TW-Builder
+- **Tech Stack:** React, TypeScript, Vite, Tailwind CSS, Zustand, React Router, Vitest
+- **Description:** A zero-backend visual component builder mapping CSS layout and design controls directly to deterministic Tailwind CSS utility classes and clean JSX output in real time.
+
+---
+
+## Complete Project Archive
+
+- **Claire — Inclusive EdTech Platform:** Accessibility-focused reading platform for students with dyslexia featuring OpenDyslexic typography, AI study assistance, Sarvam AI voice synthesis, and an empathetic AI emotional-support companion. (Live: https://claire-by-prismatics.netlify.app/ | GitHub: https://github.com/parnilV06/Claire)
+- **BITTRACE:** Offline Bitcoin transaction and network metadata investigation platform built for Smart India Hackathon 2026 (NTRO) utilizing explainable machine learning (Isolation Forest, DBSCAN) and Cytoscape.js graphs. (GitHub: https://github.com/rizzzabh-06/BIT-TRACE)
+- **Cubit.js:** Lightweight, zero-dependency pure JavaScript/ESM mathematical library for NxN Rubik's Cube state modeling and 2D net generation. (npm: https://www.npmjs.com/package/@06parnil/cubit.js | GitHub: https://github.com/parnilV06/Cubit.JS)
+- **M.A.R.G Journal:** Academic journal website, branding, and paper submission workflow under Painganga Publication. (Live: https://margjournal.com/)
+- **Shabdsanchay Journal:** Peer-reviewed multidisciplinary research journal website and paper submission portal under Painganga Publication. (Live: https://www.shabdsanchay.co.in/)
+- **LifeLine:** Real-time ambulance dispatch and hospital coordination platform built with Flutter, Firebase Firestore, and Google Maps. (Release APK: https://github.com/kalviumcommunity/S115-0826-Sudo-Android-flutter-firebase-LifeLine/releases/latest)
+- **AssetFlow:** Fixed-asset management platform with barcode tracking, lifecycle monitoring, and role-based maintenance workflows. (GitHub: https://github.com/parnilV06/AssetFlow-Odoo_Hackathon)
+- **The MoltStein Files:** Observational research archive and dashboard tracking autonomous multi-agent social interactions. (Live: https://the-moltstein-files.vercel.app/ | GitHub: https://github.com/parnilV06/The-MoltStein-Files)
+- **JAMS:** Personal AI Operating System architected around a Manager-Worker model utilizing the Model Context Protocol (MCP) and persistent local memory.
+- **SpotShare:** Hyperlocal food spot and hidden gem discovery platform created for Smart India Hackathon 2025 (Student Innovation / Travel & Tourism).
+- **TimeWizard:** Chrome extension (Manifest V3) for tracking active time on individual websites with persistent timers, daily resets, and custom time limits.
+- **SwarVeda:** Educational interactive web application exploring Indian Classical Music theory, Swaras, and Ragas. (Live: https://swarveda-iks.netlify.app/ | GitHub: https://github.com/parnilV06/SwarVeda-IKS)
+- **CodeRecall AI:** Semantic code search tool helping developers recall past logic and implementations. (Live: https://stately-flan-d33de5.netlify.app/ | GitHub: https://github.com/parnilV06/CodeRecall-AI)
+- **LeetCode Question Tracker:** Revision dashboard for categorizing and reviewing solved DSA problems. (Live: https://dainty-pie-d200aa.netlify.app/ | GitHub: https://github.com/parnilV06/Leetcode-Question-Tracker)
+- **Kalvium Auto Assignment Video Generator:** Automated developer tool generating explanatory assignment walkthrough videos. (GitHub: https://github.com/parnilV06/Kalvium-Auto-Assignment-Video-Generator/releases/tag/v1.0.0)
+- **Expense Tracker:** Full-stack expense management dashboard with categorized analytics. (GitHub: https://github.com/parnilV06/Expense-Tracker)
+- **Whack A Mole:** Interactive arcade browser game. (Live: https://whack-a-mole-parnil.netlify.app/)
+- **Nike Website Clone:** Practice HTML/CSS frontend recreation.
+
+---
+
+## Contact & Public Profiles
+- **Website:** https://parnil.me/
+- **GitHub:** https://github.com/parnilV06
+- **LinkedIn:** https://www.linkedin.com/in/parnil-vyawahare-70a1b028/
+- **Email:** 06.v.parrnil@gmail.com

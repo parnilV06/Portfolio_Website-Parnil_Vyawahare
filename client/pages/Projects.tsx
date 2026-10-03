@@ -220,6 +220,10 @@ export default function Projects() {
   }, [activeFilter, query]);
 
   useEffect(() => {
+    document.title = "All Projects — Parnil Vyawahare";
+  }, []);
+
+  useEffect(() => {
     const dialog = dialogRef.current;
     if (!dialog) return;
     if (openProject && !dialog.open) dialog.showModal();
@@ -245,8 +249,8 @@ export default function Projects() {
   return (
     <div className="portfolio-site all-projects-shell">
       <header className="site-header portfolio-nav">
-        <a className="wordmark cursor-can-hover" data-cursor-kind="small" href="/" aria-label="parnil. home">
-          parnil<span>.</span>
+        <a className="wordmark cursor-can-hover" data-cursor-kind="small" href="/" aria-label="parnil.me home">
+          parnil<span>.me</span>
         </a>
         <nav aria-label="Main navigation">
           <a className="cursor-can-hover" data-cursor-kind="nav" href="/#work">Work</a>

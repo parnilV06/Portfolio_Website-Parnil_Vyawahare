@@ -1628,7 +1628,7 @@ function ContactSocialLinks() {
           data-cursor-kind="small"
           href={social.href}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer me"
           aria-label={social.label}
         >
           <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">{social.icon}</svg>
@@ -1770,7 +1770,7 @@ export default function Index() {
   const lastPopoverTriggerRef = useRef<HTMLButtonElement | null>(null);
 
   useEffect(() => {
-    document.title = "Parnil Vyawahare — Full-stack developer and product builder";
+    document.title = "Parnil Vyawahare — Full-Stack Developer & Web Developer";
   }, []);
 
   useEffect(() => {
@@ -1804,7 +1804,7 @@ export default function Index() {
     <div className="portfolio-site">
       <header className="site-header portfolio-nav">
         <a className="wordmark cursor-can-hover" data-cursor-kind="small" href="#top" aria-label="parnil. home">
-          parnil<span>.</span>
+          parnil<span>.me</span>
         </a>
         <nav aria-label="Main navigation">
           <a className="cursor-can-hover" data-cursor-kind="nav" href="#work">Work</a>

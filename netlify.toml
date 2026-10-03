@@ -3,10 +3,33 @@ command = "npm run build:client"
 functions = "netlify/functions"
 publish = "dist/spa"
 
-
 [functions]
 external_node_modules = ["express"]
 node_bundler = "esbuild"
+
+# Security & Performance Headers
+[[headers]]
+for = "/*"
+[headers.values]
+X-Content-Type-Options = "nosniff"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+for = "/admin/*"
+[headers.values]
+X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+for = "/assets/*"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/projects/media/*"
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
 [[redirects]]
 force = true
 from = "/api/*"

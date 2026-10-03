@@ -1,14 +1,7 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
+# Robots.txt for Parnil Vyawahare Portfolio (https://parnil.me/)
 User-agent: *
 Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+Sitemap: https://parnil.me/sitemap.xml
